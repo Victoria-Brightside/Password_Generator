@@ -95,7 +95,7 @@ h1 {
 }
 
 .container__input {
-    width: 148px;
+    width: 140px;
     height: 72px;
     border-radius: 16px;
     background-color: #FFF;
@@ -113,9 +113,9 @@ h1 {
     font-size: 1.5rem;
     border: none;
     background-color: #1875E8;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     border-radius: 16px;
-    width: 243px;
+    width: 120px;
     height: 72px;
     box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
     cursor: pointer;
