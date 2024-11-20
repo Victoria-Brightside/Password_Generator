@@ -3,17 +3,26 @@ let botonGenerar = document.getElementById('generar');
 let botonLimpiar = document.getElementById('limpiar');
 let contraseña = document.getElementById('contrasena');
 
-function generar (){
+const cadenaCaracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*';
 
-    let numeroDigitado = parseInt (cantidad.value);
+function generar() {
 
-    if (numeroDigitado <8){
+    let numeroDigitado = parseInt(cantidad.value);
+
+    if (numeroDigitado < 8) {
         alert("La cantidad de caracteres tiene que ser mayor que 8");
-
     }
+    let password = '';
+    for (let i = 0; i < numeroDigitado; i++) {
+        let caracterAleatorio = cadenaCaracteres[Math.floor(Math.random() * cadenaCaracteres.length)];
+        password += caracterAleatorio;
+    }
+    contraseña.value = password;
 }
 
-function limpiar(){
+botonGenerar.addEventListener('click', generar);
+
+function limpiar() {
     contraseña.value = '';
     cantidad.value = '';
 }
