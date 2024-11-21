@@ -27,8 +27,7 @@ También permite ingresar al usuario una contraseña especifica misma que será 
 
 # Tecnologías Usadas
 ## Frontend
-
-    **HTML5:** Estructura semántica de la página.
+    __HTML5:__ Estructura semántica de la página.
     **CSS3:** Estilo de la página.
     **JavaScript (ES6):**
         Regex: Uso de expresiones regulares para clasificar contraseñas en niveles de seguridad (fuerte, media o débil) mediante validación de patrones específicos.
