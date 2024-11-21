@@ -6,7 +6,7 @@ También permite ingresar al usuario una contraseña especifica misma que será 
 
 ## Características
 
-1. Generador de Contraseñas
+**1. Generador de Contraseñas.**
 
    Permite generar contraseñas de longitud personalizada (mínimo 8 caracteres).
    Incluye caracteres:
@@ -16,7 +16,7 @@ También permite ingresar al usuario una contraseña especifica misma que será 
    Símbolos especiales (!@#$%^&\*?).
    Genera contraseñas aleatorias cumpliendo con los criterios de seguridad antes mencionados.
 
-2. Clasificador de Contraseñas
+**2. Clasificador de Contraseñas.**
 
    Analiza la seguridad de una contraseña ingresada por el usuario.
    Clasificación en tres niveles:
@@ -27,10 +27,14 @@ También permite ingresar al usuario una contraseña especifica misma que será 
 
 # Tecnologías Usadas
 ## Frontend
-    __HTML5:__ Estructura semántica de la página.
-    **CSS3:** Estilo de la página.
-    **JavaScript (ES6):**
-        Regex: Uso de expresiones regulares para clasificar contraseñas en niveles de seguridad (fuerte, media o débil) mediante validación de patrones específicos.
-        Estructuras de control: Implementación de condicionales (if-else) para evaluar las contraseñas y bucles (for) para generar contraseñas dinámicamente.
-        Funciones Math: Uso de Math.random() y Math.floor() para seleccionar caracteres aleatorios de una cadena al generar contraseñas.
-        Manejo del DOM: Actualización dinámica de los elementos HTML, como campos de texto y mensajes de clasificación.
+**HTML5:** Estructura semántica de la página.
+
+**CSS3:** Estilo de la página.
+
+**JavaScript (ES6):**
+   - **Regex:** Uso de expresiones regulares para clasificar contraseñas en niveles de seguridad (fuerte, media o débil) mediante validación de patrones específicos.
+   - **Estructuras de control:** Implementación de condicionales (if-else) para evaluar las contraseñas y bucles (for) para generar contraseñas dinámicamente.
+     
+   - **Funciones Math:** Uso de Math.random() y Math.floor() para seleccionar caracteres aleatorios de una cadena al generar contraseñas.
+     
+   - **Manejo del DOM:** Actualización dinámica de los elementos HTML, como campos de texto y mensajes de clasificación.
