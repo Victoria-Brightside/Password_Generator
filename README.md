@@ -23,6 +23,8 @@ También permite ingresar al usuario una contraseña especifica misma que será 
    Fuerte: Contiene letras mayúsculas, minúsculas, números y símbolos especiales, con una longitud de al menos 8 caracteres.
    Media: Contiene letras y números, con una longitud de al menos 8 caracteres.
    Débil: No cumple con los requisitos anteriores.
+   
+![genera_contra](https://github.com/user-attachments/assets/4b42bb98-4484-467c-96ab-43c7e7e9ccfc)
 
 
 # Tecnologías Usadas
